@@ -48,18 +48,6 @@ MAIL_FROM="Job Listing <no-reply@yourdomain.com>"
 
 Make sure MongoDB is running on your system. The application will automatically create the database and collections.
 
-### 4. Setup Admin User
-
-Run the following to create the default admin user:
-
-```bash
-curl -X POST http://localhost:3000/api/setup-admin
-```
-
-**Default Admin Credentials:**
-- Username: `admin`
-- Password: `admin123`
-
 ### 5. Run the Application
 
 ```bash
@@ -120,3 +108,4 @@ src/
 ## License
 
 MIT License
+
